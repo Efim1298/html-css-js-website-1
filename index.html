@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Website</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <div class="nav-container">
+      <nav class="navbar">
+        <a href="#" id="navbar-logo">
+          <h1>eFIMa</h1>
+        </a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#" class="nav-links">Home</a></li>
+          <li><a href="#services" class="nav-links">Services</a></li>
+          <li><a href="#about" class="nav-links">About us</a></li>
+          <li><a href="#contact" class="nav-links">Contact</a></li>
+          <li><a href="#" class="nav-links nav-links-btn">Sign up</a></li>
+          <li><a href="ukr/ukr.html" class="nav-links">UA</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Main -->
+
+    <div class="main">
+      <div class="main-container">
+        <div class="main-content">
+          <h1>Skyrocket your results</h1>
+          <p>
+            eFIMa allows you to fully automate your business so you can focus on
+            what's important
+          </p>
+          <button class="main-btn"><a href="#">Get Started</a></button>
+        </div>
+        <div class="main-img-container">
+          <img src="images/main.svg" alt="Image" id="main-img" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Form -->
+
+    <div class="modal" id="email-modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content-left">
+          <img id="modal-img" src="images/form.svg" alt="Image" />
+        </div>
+        <div class="modal-content-right">
+          <form action="/" class="modal-form" id="form">
+            <h1>
+              Get started with us today! Create your account by filling out the
+              information below.
+            </h1>
+            <div class="form-validation">
+              <input
+                type="text"
+                class="modal-input"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="email"
+                class="modal-input"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="password"
+                class="modal-input"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+              />
+              <p>Error Message</p>
+            </div>
+            <div class="form-validation">
+              <input
+                type="password"
+                class="modal-input"
+                id="password-confirm"
+                name="password"
+                placeholder="Confirm your password"
+              />
+              <p>Error Message</p>
+            </div>
+            <input type="submit" class="modal-input-btn" value="Sign up" />
+            <span class="modal-input-login"
+              >Already have an account? Login <a href="#">here</a></span
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+
+    <div class="services-section" id="services">
+      <div class="services-wrapper">
+        <h1 class="services-heading">Our Services</h1>
+        <div class="services-container">
+          <a href="/" class="services-card">
+            <div class="services-card-info">
+              <div class="services-card-icon">
+                <i class="fas fa-battery-quarter"></i>
+              </div>
+              <h3>Starter Pack</h3>
+              <h4>$8.99</h4>
+              <p>per month</p>
+              <ul class="services-container-features">
+                <li>100 Transactions</li>
+                <li>2% Cash Back</li>
+                <li>$10,000 Limit</li>
+              </ul>
+              <button class="primary">Choose Plan</button>
+            </div>
+          </a>
+          <a href="/" class="services-card">
+            <div class="services-card-info">
+              <div class="services-card-icon">
+                <i class="fas fa-battery-half"></i>
+              </div>
+              <h3>Gold Rush</h3>
+              <h4>$29.99</h4>
+              <p>per month</p>
+              <ul class="services-container-features">
+                <li>1000 Transactions</li>
+                <li>3.5% Cash Back</li>
+                <li>$100,000 Limit</li>
+              </ul>
+              <button class="primary">Choose Plan</button>
+            </div>
+          </a>
+          <a href="/" class="services-card">
+            <div class="services-card-info">
+              <div class="services-card-icon">
+                <i class="fas fa-battery-full"></i>
+              </div>
+              <h3>Diamond King</h3>
+              <h4>$99.99</h4>
+              <p>per month</p>
+              <ul class="services-container-features">
+                <li>Unlimited Transactions</li>
+                <li>5% Cash Back</li>
+                <li>Unlimited Spending</li>
+              </ul>
+              <button class="primary">Choose Plan</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="about" id="about">
+      <div class="about__container">
+        <div class="about__img--container">
+          <img src="images/about.svg" alt="" id="main-img1" />
+        </div>
+        <div class="about__content">
+          <div class="topHead">What do we do?</div>
+          <h2>We help businesses scale</h2>
+          <p>
+            Once you've joined, our team of specialist will reach out to you and
+            get you set up in minutes. Schedule a call to learn more about our
+            services
+          </p>
+          <button class="main-btn-ab"><a href="#">Schedule Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer__container" id="contact">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items" id="link-en">
+            <h2>Social Media</h2>
+            <a
+              href="https://www.instagram.com/javascriptmastery/"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>Instagram</a
+            >
+            <a
+              href="https://www.facebook.com/search/top/?q=web%20development"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>Facebook</a
+            >
+            <a
+              href="https://www.youtube.com/results?search_query=web+development+"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>Youtube</a
+            >
+            <a
+              href="https://twitter.com/search?q=web%20development&src=typed_query"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>Twitter</a
+            >
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">eFIMa</a>
+          </div>
+          <p class="website__rights">© eFIMa 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://www.apple.com/ru/ios/app-store/"
+              target="_blank"
+              aria-label="AppStore"
+            >
+              <img src="images/footerstore1.png" alt="" class="footer_store" />
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://play.google.com/store"
+              target="_blank"
+              aria-label="GooglePlay"
+            >
+              <img src="images/footerstore2.png" alt="" class="footer_store" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- JS -->
+
+    <script src="app.js"></script>
+  </body>
+</html>

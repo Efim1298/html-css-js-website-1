@@ -1,0 +1,26 @@
+@import url("css/navbar.css");
+@import url("css/main.css");
+@import url("css/form.css");
+@import url("css/services.css");
+@import url("css/about.css");
+@import url("css/footer.css");
+@import url("css/ua.css");
+
+:root {
+  --darkgray: #212329;
+  --brightred: #f9423d;
+  --white: #fff;
+  --lightred: #f9433dcc;
+  --lightblue: #337af1;
+  --lightgray: #b1b1b1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+

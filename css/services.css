@@ -1,0 +1,159 @@
+.services-section {
+  padding: 100px 0 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--brightred);
+}
+
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.services-heading {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card {
+  background: #242424;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
+  width: 280px;
+  height: 500px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.services-card:nth-child(2) {
+  margin: 24px;
+}
+
+.services-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-in-out;
+  color: #1c2237;
+}
+
+.services-card-info {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 24px;
+  align-items: center;
+  color: #fff;
+}
+
+.services-card-icon i {
+  font-size: 30px;
+  margin: 24px 0;
+  margin-left: 10px;
+}
+
+.services-card-info h3 {
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+
+.services-card-info h4 {
+  font-size: 40px;
+}
+
+.services-card-info p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.services-container-features {
+  margin: 16px 0 32px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a9b3c1;
+  font-size: 14px;
+}
+
+.services-container-features li {
+  margin-bottom: 10px;
+}
+
+.primary {
+  border-radius: 4px;
+  background: var(--brightred);
+  white-space: nowrap;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.primary:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  background: var(--lightblue);
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .services-wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-heading {
+    font-size: 2.5rem;
+  }
+
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .services-card {
+    width: 90%;
+  }
+
+  .services-card:hover {
+    transform: none;
+  }
+
+  .primary {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-heading {
+    font-size: 43px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .primary {
+    width: 100%;
+  }
+
+  .services-heading {
+    font-size: 35px;
+  }
+}
